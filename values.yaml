@@ -1,0 +1,9 @@
+image:
+  repository: gristlabs/grist
+  tag: latest
+service:
+  type: LoadBalancer
+  port: 8484
+persistence:
+  enabled: true
+  size: 10Gi
